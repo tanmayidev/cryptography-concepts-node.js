@@ -28,7 +28,7 @@ const { createCipheriv, randomBytes, createDecipheriv } = require('crypto');
 
 /// Cipher
 
-const message = 'i like roli poli panda';
+const message = 'i am a panda';
 const key = randomBytes(32);
 const iv = randomBytes(16);
 
